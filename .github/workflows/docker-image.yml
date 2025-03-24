@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ecommercesrore123/django-ecommerce:latest .
+          docker build -t ecommercestore123/django-ecommerce:latest .
       
       - name: Push Docker Image to Docker Hub
         run: |
