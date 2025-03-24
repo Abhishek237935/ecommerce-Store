@@ -10,7 +10,7 @@ COPY . /app
 
 #install dependencies
 
-RUN pip inst11 --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 #expose the port django runs on
 
